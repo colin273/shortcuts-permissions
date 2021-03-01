@@ -12,7 +12,7 @@ function pushOrNot(perm) {
 (async () => {
     const obj = (await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/Current/Resources/WFActions.plist', () => {}))[0];
 
-    for (const actionID of Object.keys(obj)) {
+    for (const actionID in obj) {
         try {
             const resources  = obj[actionID].RequiredResources;
             for (const resource of resources) {
