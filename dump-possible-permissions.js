@@ -3,6 +3,8 @@ dump-possible-permissions.js
 
 Get all the permissions mentioned in WFActions.plist and save them to permissions.json.
 All preexisting values in permissions.json are preserved, so permissions.json can be filled in manually.
+
+This only works on macOS.
 */
 
 const bplist = require('bplist-parser');

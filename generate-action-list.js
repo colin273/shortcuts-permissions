@@ -2,6 +2,11 @@
 generate-action-list.js
 
 Generates an object containing all the actions and permissions in WFActions.plist and saves it to actions.json.
+
+Permissions with a value of `null` in permissions.json are ignored.
+Action listings in overrides.json take precedence over WFActions.plist.
+
+This only works on macOS.
 */
 
 const bplist = require('bplist-parser');
