@@ -1,0 +1,182 @@
+{
+    "Settings": {
+        "icon": "",
+        "description": ""
+    },
+    "WFAddToReadingListAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFAppInstalledResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFAppleMusicAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFCalendarAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFCameraAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFCloudAppAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFContactAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFDeviceAttributesResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFEvernoteAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFHealthKitAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFHealthKitResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFHomeKitAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFImgurAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFInstapaperAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFLocalNotificationAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFLocationAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFMainThreadResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFMessagesAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFMicrophoneAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFNotesAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFPhotoAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFPinboardAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFPocketAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFPodcastsAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFReminderAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFRemoteServerAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFRequestPaymentAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFRunShortcutsAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFSendEmailAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFShortcutsAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFSiriAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFSlackAccount": {
+        "icon": "",
+        "description": ""
+    },
+    "WFSpeechRecognitionAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFStartCallAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFTodoistAccount": {
+        "icon": "",
+        "description": ""
+    },
+    "WFTrelloAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFTumblrAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFURLOpenResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFUnavailableResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFUserInteractionResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFWallpaperModificationAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFWeatherAttributionAccessResource": {
+        "icon": "",
+        "description": ""
+    },
+    "WFWordPressAccount": {
+        "icon": "",
+        "description": ""
+    },
+    "WFWunderlistAccount": {
+        "icon": "",
+        "description": ""
+    }
+}

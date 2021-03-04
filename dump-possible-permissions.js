@@ -1,8 +1,15 @@
+/*
+dump-possible-permissions.js
+
+Get all the permissions mentioned in WFActions.plist and save them to permissions.json.
+All preexisting values in permissions.json are preserved, so permissions.json can be filled in manually.
+*/
+
 const bplist = require('bplist-parser');
-const fs = require('fs')
+const { writeFileSync } = require('fs')
 
 let perms = [];
-let accountTypes = [];
+
 function pushOrNot(perm) {
     if (!perms.includes(perm)) {
         perms.push(perm)
@@ -10,27 +17,42 @@ function pushOrNot(perm) {
 }
 
 (async () => {
-    const obj = (await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/Current/Resources/WFActions.plist', () => {}))[0];
+    const obj = (await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist', () => {}))[0];
 
     for (const actionID in obj) {
-        try {
-            const resources  = obj[actionID].RequiredResources;
+        const resources  = obj[actionID].RequiredResources;
+        if (resources) {
             for (const resource of resources) {
-                
                 if (typeof resource == "string") {
                     pushOrNot(resource);
                 } else {
-                    pushOrNot(resource.WFResourceClass);
                     if (resource.WFAccountClass) {
-                        if (!accountTypes.includes(resource.WFAccountClass)) {
-                            accountTypes.push(resource.WFAccountClass);
-                        }
+                        pushOrNot(resource.WFAccountClass)
+                    } else {
+                        pushOrNot(resource.WFResourceClass);
                     }
                 }
             }
-        } catch {}
+        }
     }
-    console.log(perms.sort().join('\n'))
-    console.log('\n')
-    console.log(accountTypes.sort().join('\n'))
+
+    perms.push("Settings")
+    perms.sort();
+    
+    const permsJSON = {};
+    try {
+        permsJSON = require("./permissions.json");
+    } catch {}
+
+    for (const p of perms) {
+        if (!permsJSON[p]) {
+            permsJSON[p] = {
+                icon: "",
+                description: ""
+            };
+            console.log(`Permission '${p}' has no description`)
+        }
+    }
+
+    writeFileSync('./permissions.json', JSON.stringify(permsJSON, null, 4))
 })();
