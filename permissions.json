@@ -1,182 +1,174 @@
 {
+    "FaceTime": {
+        "icon": "",
+        "description": "FaceTime"
+    },
+    "Phone": {
+        "icon": "",
+        "description": "Phone"
+    },
+    "Run JavaScript": {
+        "icon": "",
+        "description": "Run JavaScript"
+    },
     "Settings": {
         "icon": "",
-        "description": ""
+        "description": "Settings"
     },
     "WFAddToReadingListAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Reading List"
     },
-    "WFAppInstalledResource": {
-        "icon": "",
-        "description": ""
-    },
+    "WFAppInstalledResource": null,
     "WFAppleMusicAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Music"
     },
     "WFCalendarAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Calendar"
     },
     "WFCameraAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Camera"
     },
     "WFCloudAppAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "CloudApp"
     },
     "WFContactAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Contacts"
     },
-    "WFDeviceAttributesResource": {
-        "icon": "",
-        "description": ""
-    },
+    "WFDeviceAttributesResource": null,
     "WFEvernoteAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Evernote"
     },
     "WFHealthKitAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Health"
     },
-    "WFHealthKitResource": {
-        "icon": "",
-        "description": ""
-    },
+    "WFHealthKitResource": null,
     "WFHomeKitAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "HomeKit"
     },
     "WFImgurAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Imgur"
     },
     "WFInstapaperAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Instapaper"
     },
     "WFLocalNotificationAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Notifications"
     },
     "WFLocationAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Location"
     },
-    "WFMainThreadResource": {
-        "icon": "",
-        "description": ""
-    },
+    "WFMainThreadResource": null,
     "WFMessagesAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Messages"
     },
     "WFMicrophoneAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Microphone"
     },
     "WFNotesAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Notes"
     },
     "WFPhotoAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Photos"
     },
     "WFPinboardAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Pinboard"
     },
     "WFPocketAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Pocket"
     },
     "WFPodcastsAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Podcasts"
     },
     "WFReminderAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Reminders"
     },
     "WFRemoteServerAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Internet"
     },
     "WFRequestPaymentAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Wallet"
     },
     "WFRunShortcutsAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Run Shortcuts"
     },
     "WFSendEmailAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Mail"
     },
     "WFShortcutsAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Shortcuts"
     },
     "WFSiriAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Siri"
     },
     "WFSlackAccount": {
         "icon": "",
-        "description": ""
+        "description": "Slack"
     },
     "WFSpeechRecognitionAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Speech Recognition"
     },
-    "WFStartCallAccessResource": {
-        "icon": "",
-        "description": ""
-    },
+    "WFStartCallAccessResource": null,
     "WFTodoistAccount": {
         "icon": "",
-        "description": ""
+        "description": "Todoist"
     },
     "WFTrelloAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Trello"
     },
     "WFTumblrAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Tumblr"
     },
-    "WFURLOpenResource": {
-        "icon": "",
-        "description": ""
-    },
-    "WFUnavailableResource": {
-        "icon": "",
-        "description": ""
-    },
-    "WFUserInteractionResource": {
-        "icon": "",
-        "description": ""
-    },
+    "WFURLOpenResource": null,
+    "WFUnavailableResource": null,
+    "WFUserInteractionResource": null,
     "WFWallpaperModificationAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Set Wallpaper"
     },
     "WFWeatherAttributionAccessResource": {
         "icon": "",
-        "description": ""
+        "description": "Weather"
     },
     "WFWordPressAccount": {
         "icon": "",
-        "description": ""
+        "description": "WordPress"
     },
     "WFWunderlistAccount": {
         "icon": "",
-        "description": ""
+        "description": "Wunderlist"
+    },
+    "Apple TV Remote": {
+        "icon": "",
+        "description": "Apple TV Remote"
     }
 }

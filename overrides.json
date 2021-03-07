@@ -1,1 +1,5 @@
-{}
+{
+    "com.apple.facetime.facetime": [],
+    "com.apple.mobilephone.call": [],
+    "is.workflow.actions.runjavascriptonwebpage": []
+}

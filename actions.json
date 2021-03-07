@@ -9,30 +9,20 @@
     "com.apple.TVRemoteUIService.ToggleCaptionsIntent": [],
     "com.apple.TVRemoteUIService.ToggleSystemAppearanceIntent": [],
     "com.apple.TVRemoteUIService.WakeAppleTVIntent": [],
-    "com.apple.facetime.facetime": [
-        "WFStartCallAccessResource"
-    ],
+    "com.apple.facetime.facetime": [],
     "com.apple.mobilenotes.SharingExtension": [
-        "WFNotesAccessResource",
-        "WFUserInteractionResource"
+        "WFNotesAccessResource"
     ],
-    "com.apple.mobilephone.call": [
-        "WFStartCallAccessResource"
-    ],
+    "com.apple.mobilephone.call": [],
     "com.apple.mobileslideshow.StreamShareService": [],
     "com.apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent": [],
-    "com.panic.iOS.Transmit.Share": [
-        "WFAppInstalledResource",
-        "WFUserInteractionResource"
-    ],
+    "com.panic.iOS.Transmit.Share": [],
     "is.workflow.actions.addframetogif": [],
     "is.workflow.actions.addmusictoupnext": [
-        "WFAppleMusicAccessResource",
-        "WFDeviceAttributesResource"
+        "WFAppleMusicAccessResource"
     ],
     "is.workflow.actions.addnewcontact": [
-        "WFContactAccessResource",
-        "WFUserInteractionResource"
+        "WFContactAccessResource"
     ],
     "is.workflow.actions.addnewevent": [
         "WFCalendarAccessResource"
@@ -43,50 +33,33 @@
     ],
     "is.workflow.actions.address": [],
     "is.workflow.actions.addtoplaylist": [
-        "WFAppleMusicAccessResource",
-        "WFDeviceAttributesResource"
+        "WFAppleMusicAccessResource"
     ],
-    "is.workflow.actions.adjustdate": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.airdropdocument": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.adjustdate": [],
+    "is.workflow.actions.airdropdocument": [],
     "is.workflow.actions.airplanemode.set": [
         "Settings"
     ],
-    "is.workflow.actions.alert": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.alert": [],
     "is.workflow.actions.appearance": [],
     "is.workflow.actions.appendnote": [
         "WFNotesAccessResource"
     ],
     "is.workflow.actions.appendvariable": [],
-    "is.workflow.actions.ask": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.avairyeditphoto": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.ask": [],
+    "is.workflow.actions.avairyeditphoto": [],
     "is.workflow.actions.base64encode": [],
     "is.workflow.actions.bluetooth.set": [
         "Settings"
     ],
     "is.workflow.actions.calculateexpression": [],
     "is.workflow.actions.cellulardata.set": [
-        "Settings",
-        "WFDeviceAttributesResource"
+        "Settings"
     ],
-    "is.workflow.actions.choosefromlist": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.choosefrommenu": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.choosefromlist": [],
+    "is.workflow.actions.choosefrommenu": [],
     "is.workflow.actions.clearupnext": [
-        "WFAppleMusicAccessResource",
-        "WFDeviceAttributesResource"
+        "WFAppleMusicAccessResource"
     ],
     "is.workflow.actions.cloudapp.upload": [
         "WFCloudAppAccessResource"
@@ -97,23 +70,15 @@
     "is.workflow.actions.correctspelling": [],
     "is.workflow.actions.count": [],
     "is.workflow.actions.createplaylist": [
-        "WFAppleMusicAccessResource",
-        "WFDeviceAttributesResource"
+        "WFAppleMusicAccessResource"
     ],
     "is.workflow.actions.date": [],
-    "is.workflow.actions.debug.contentattribution": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.delay": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.debug.contentattribution": [],
+    "is.workflow.actions.delay": [],
     "is.workflow.actions.deletephotos": [
         "WFPhotoAccessResource"
     ],
-    "is.workflow.actions.deskconnect.send": [
-        "WFAppInstalledResource",
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.deskconnect.send": [],
     "is.workflow.actions.detect.address": [],
     "is.workflow.actions.detect.contacts": [],
     "is.workflow.actions.detect.date": [],
@@ -126,19 +91,13 @@
     "is.workflow.actions.detect.text": [],
     "is.workflow.actions.detectlanguage": [],
     "is.workflow.actions.dictatetext": [
-        "WFDeviceAttributesResource",
         "WFMicrophoneAccessResource",
-        "WFSpeechRecognitionAccessResource",
-        "WFUserInteractionResource"
+        "WFSpeechRecognitionAccessResource"
     ],
     "is.workflow.actions.dictionary": [],
     "is.workflow.actions.dnd.set": [],
-    "is.workflow.actions.documentpicker.open": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.documentpicker.save": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.documentpicker.open": [],
+    "is.workflow.actions.documentpicker.save": [],
     "is.workflow.actions.downloadurl": [
         "WFRemoteServerAccessResource"
     ],
@@ -159,17 +118,11 @@
     "is.workflow.actions.evernote.new": [
         "WFEvernoteAccessResource"
     ],
-    "is.workflow.actions.exit": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.exit": [],
     "is.workflow.actions.exportsong": [
-        "WFAppleMusicAccessResource",
-        "WFUserInteractionResource"
+        "WFAppleMusicAccessResource"
     ],
-    "is.workflow.actions.facebook.messenger.send": [
-        "WFAppInstalledResource",
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.facebook.messenger.send": [],
     "is.workflow.actions.file.append": [],
     "is.workflow.actions.file.createfolder": [],
     "is.workflow.actions.file.delete": [],
@@ -184,8 +137,7 @@
     "is.workflow.actions.filter.eventattendees": [],
     "is.workflow.actions.filter.files": [],
     "is.workflow.actions.filter.health.quantity": [
-        "WFHealthKitAccessResource",
-        "WFHealthKitResource"
+        "WFHealthKitAccessResource"
     ],
     "is.workflow.actions.filter.images": [],
     "is.workflow.actions.filter.locations": [],
@@ -214,24 +166,17 @@
     "is.workflow.actions.getarticle": [],
     "is.workflow.actions.getbatterylevel": [],
     "is.workflow.actions.getclassaction": [],
-    "is.workflow.actions.getclipboard": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.getclipboard": [],
     "is.workflow.actions.getcurrentlocation": [
-        "WFLocationAccessResource",
-        "WFMainThreadResource"
+        "WFLocationAccessResource"
     ],
     "is.workflow.actions.getcurrentsong": [
-        "WFAppleMusicAccessResource",
-        "WFMainThreadResource"
+        "WFAppleMusicAccessResource"
     ],
     "is.workflow.actions.getdevicedetails": [],
-    "is.workflow.actions.getdirections": [
-        "WFURLOpenResource"
-    ],
+    "is.workflow.actions.getdirections": [],
     "is.workflow.actions.getdistance": [
-        "WFLocationAccessResource",
-        "WFMainThreadResource"
+        "WFLocationAccessResource"
     ],
     "is.workflow.actions.getepisodesforpodcast": [],
     "is.workflow.actions.getframesfromimage": [],
@@ -278,8 +223,7 @@
     "is.workflow.actions.gettext": [],
     "is.workflow.actions.gettimebetweendates": [],
     "is.workflow.actions.gettraveltime": [
-        "WFLocationAccessResource",
-        "WFMainThreadResource"
+        "WFLocationAccessResource"
     ],
     "is.workflow.actions.gettypeaction": [],
     "is.workflow.actions.getupcomingevents": [
@@ -295,25 +239,16 @@
         "WFRemoteServerAccessResource"
     ],
     "is.workflow.actions.getwifi": [],
-    "is.workflow.actions.giphy": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.goodreader.open": [
-        "WFAppInstalledResource",
-        "WFURLOpenResource"
-    ],
-    "is.workflow.actions.handoff": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.giphy": [],
+    "is.workflow.actions.goodreader.open": [],
+    "is.workflow.actions.handoff": [],
     "is.workflow.actions.handoffplayback": [],
     "is.workflow.actions.hash": [],
     "is.workflow.actions.health.quantity.log": [
-        "WFHealthKitAccessResource",
-        "WFHealthKitResource"
+        "WFHealthKitAccessResource"
     ],
     "is.workflow.actions.health.workout.log": [
-        "WFHealthKitAccessResource",
-        "WFHealthKitResource"
+        "WFHealthKitAccessResource"
     ],
     "is.workflow.actions.homeaccessory": [
         "WFHomeKitAccessResource"
@@ -329,8 +264,7 @@
         "WFImgurAccessResource"
     ],
     "is.workflow.actions.instapaper.add": [
-        "WFInstapaperAccessResource",
-        "WFMainThreadResource"
+        "WFInstapaperAccessResource"
     ],
     "is.workflow.actions.instapaper.get": [
         "WFInstapaperAccessResource"
@@ -341,8 +275,7 @@
         "WFLocationAccessResource"
     ],
     "is.workflow.actions.lowpowermode.set": [
-        "Settings",
-        "WFDeviceAttributesResource"
+        "Settings"
     ],
     "is.workflow.actions.makegif": [],
     "is.workflow.actions.makepdf": [],
@@ -353,32 +286,17 @@
     "is.workflow.actions.measurement.create": [],
     "is.workflow.actions.nothing": [],
     "is.workflow.actions.notification": [
-        "WFLocalNotificationAccessResource",
-        "WFMainThreadResource"
+        "WFLocalNotificationAccessResource"
     ],
     "is.workflow.actions.number": [],
     "is.workflow.actions.number.random": [],
-    "is.workflow.actions.openapp": [
-        "WFURLOpenResource"
-    ],
-    "is.workflow.actions.openin": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.openurl": [
-        "WFURLOpenResource"
-    ],
-    "is.workflow.actions.openworkflow": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.openxcallbackurl": [
-        "WFURLOpenResource"
-    ],
-    "is.workflow.actions.overlayimageonimage": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.pausemusic": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.openapp": [],
+    "is.workflow.actions.openin": [],
+    "is.workflow.actions.openurl": [],
+    "is.workflow.actions.openworkflow": [],
+    "is.workflow.actions.openxcallbackurl": [],
+    "is.workflow.actions.overlayimageonimage": [],
+    "is.workflow.actions.pausemusic": [],
     "is.workflow.actions.phonenumber": [],
     "is.workflow.actions.pinboard.add": [
         "WFPinboardAccessResource"
@@ -387,8 +305,7 @@
         "WFPinboardAccessResource"
     ],
     "is.workflow.actions.playmusic": [
-        "WFAppleMusicAccessResource",
-        "WFMainThreadResource"
+        "WFAppleMusicAccessResource"
     ],
     "is.workflow.actions.playpodcast": [
         "WFPodcastsAccessResource"
@@ -403,16 +320,9 @@
     "is.workflow.actions.podcasts.subscribe": [
         "WFPodcastsAccessResource"
     ],
-    "is.workflow.actions.postonfacebook": [
-        "WFAppInstalledResource",
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.previewdocument": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.print": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.postonfacebook": [],
+    "is.workflow.actions.previewdocument": [],
+    "is.workflow.actions.print": [],
     "is.workflow.actions.properties.appearance": [],
     "is.workflow.actions.properties.appstore": [],
     "is.workflow.actions.properties.articles": [],
@@ -443,23 +353,19 @@
         "WFAddToReadingListAccessResource"
     ],
     "is.workflow.actions.recordaudio": [
-        "WFMicrophoneAccessResource",
-        "WFUserInteractionResource"
+        "WFMicrophoneAccessResource"
     ],
     "is.workflow.actions.reminders.showlist": [
-        "WFDeviceAttributesResource",
         "WFReminderAccessResource"
     ],
     "is.workflow.actions.removeevents": [
-        "WFCalendarAccessResource",
-        "WFUserInteractionResource"
+        "WFCalendarAccessResource"
     ],
     "is.workflow.actions.removefromalbum": [
         "WFPhotoAccessResource"
     ],
     "is.workflow.actions.removereminders": [
-        "WFReminderAccessResource",
-        "WFUserInteractionResource"
+        "WFReminderAccessResource"
     ],
     "is.workflow.actions.repeat.count": [],
     "is.workflow.actions.repeat.each": [],
@@ -471,67 +377,45 @@
     "is.workflow.actions.rss.extract": [
         "WFRemoteServerAccessResource"
     ],
-    "is.workflow.actions.runextension": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.runjavascriptonwebpage": [
-        "WFDeviceAttributesResource"
-    ],
+    "is.workflow.actions.runextension": [],
+    "is.workflow.actions.runjavascriptonwebpage": [],
     "is.workflow.actions.runsshscript": [],
     "is.workflow.actions.runworkflow": [
-        "WFMainThreadResource",
         "WFRunShortcutsAccessResource"
     ],
     "is.workflow.actions.savetocameraroll": [
         "WFPhotoAccessResource"
     ],
     "is.workflow.actions.scanbarcode": [
-        "WFCameraAccessResource",
-        "WFUserInteractionResource"
+        "WFCameraAccessResource"
     ],
     "is.workflow.actions.searchappstore": [],
     "is.workflow.actions.searchitunes": [],
     "is.workflow.actions.searchlocalbusinesses": [
-        "WFLocationAccessResource",
-        "WFMainThreadResource"
+        "WFLocationAccessResource"
     ],
     "is.workflow.actions.searchmaps": [
         "WFLocationAccessResource"
     ],
     "is.workflow.actions.searchpodcasts": [],
-    "is.workflow.actions.searchweb": [
-        "WFURLOpenResource"
-    ],
-    "is.workflow.actions.seek": [
-        "WFMainThreadResource"
-    ],
-    "is.workflow.actions.selectcontacts": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.selectemail": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.selectphone": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.searchweb": [],
+    "is.workflow.actions.seek": [],
+    "is.workflow.actions.selectcontacts": [],
+    "is.workflow.actions.selectemail": [],
+    "is.workflow.actions.selectphone": [],
     "is.workflow.actions.selectphoto": [
-        "WFPhotoAccessResource",
-        "WFUserInteractionResource"
+        "WFPhotoAccessResource"
     ],
     "is.workflow.actions.sendemail": [
-        "WFSendEmailAccessResource",
-        "WFUserInteractionResource"
+        "WFSendEmailAccessResource"
     ],
     "is.workflow.actions.sendmessage": [
-        "WFMessagesAccessResource",
-        "WFUserInteractionResource"
+        "WFMessagesAccessResource"
     ],
     "is.workflow.actions.setbrightness": [
         "Settings"
     ],
-    "is.workflow.actions.setclipboard": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.setclipboard": [],
     "is.workflow.actions.setitemname": [],
     "is.workflow.actions.setplaybackdestination": [],
     "is.workflow.actions.setters.calendarevents": [
@@ -546,55 +430,34 @@
     "is.workflow.actions.setvalueforkey": [],
     "is.workflow.actions.setvariable": [],
     "is.workflow.actions.setvolume": [],
-    "is.workflow.actions.share": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.share": [],
     "is.workflow.actions.shazamMedia": [
         "WFMicrophoneAccessResource"
     ],
-    "is.workflow.actions.showdefinition": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.showdefinition": [],
     "is.workflow.actions.showinblindsquare": [
-        "WFAppInstalledResource",
-        "WFLocationAccessResource",
-        "WFURLOpenResource"
+        "WFLocationAccessResource"
     ],
-    "is.workflow.actions.showincalendar": [
-        "WFURLOpenResource"
-    ],
-    "is.workflow.actions.showinstore": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.showincalendar": [],
+    "is.workflow.actions.showinstore": [],
     "is.workflow.actions.shownote": [
         "WFNotesAccessResource"
     ],
-    "is.workflow.actions.showresult": [
-        "WFMainThreadResource"
-    ],
-    "is.workflow.actions.showwebpage": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.showresult": [],
+    "is.workflow.actions.showwebpage": [],
     "is.workflow.actions.sirikit.donation.handle": [],
-    "is.workflow.actions.skipback": [
-        "WFMainThreadResource"
-    ],
-    "is.workflow.actions.skipforward": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.skipback": [],
+    "is.workflow.actions.skipforward": [],
     "is.workflow.actions.slack.send": [
-        "WFSlackAccount",
-        "WFUnavailableResource"
+        "WFSlackAccount"
     ],
     "is.workflow.actions.speaktext": [],
     "is.workflow.actions.statistics": [],
     "is.workflow.actions.takephoto": [
-        "WFCameraAccessResource",
-        "WFUserInteractionResource"
+        "WFCameraAccessResource"
     ],
     "is.workflow.actions.takevideo": [
-        "WFCameraAccessResource",
-        "WFUserInteractionResource"
+        "WFCameraAccessResource"
     ],
     "is.workflow.actions.text.changecase": [],
     "is.workflow.actions.text.combine": [],
@@ -621,18 +484,11 @@
     "is.workflow.actions.trello.get": [
         "WFTrelloAccessResource"
     ],
-    "is.workflow.actions.trimvideo": [
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.trimvideo": [],
     "is.workflow.actions.tumblr.post": [
-        "WFAppInstalledResource",
-        "WFTumblrAccessResource",
-        "WFUserInteractionResource"
+        "WFTumblrAccessResource"
     ],
-    "is.workflow.actions.tweet": [
-        "WFAppInstalledResource",
-        "WFUserInteractionResource"
-    ],
+    "is.workflow.actions.tweet": [],
     "is.workflow.actions.unzip": [],
     "is.workflow.actions.url": [],
     "is.workflow.actions.url.expand": [
@@ -647,15 +503,9 @@
     "is.workflow.actions.venmo.request": [
         "WFRequestPaymentAccessResource"
     ],
-    "is.workflow.actions.vibrate": [
-        "WFDeviceAttributesResource"
-    ],
-    "is.workflow.actions.viewresult": [
-        "WFUserInteractionResource"
-    ],
-    "is.workflow.actions.waittoreturn": [
-        "WFMainThreadResource"
-    ],
+    "is.workflow.actions.vibrate": [],
+    "is.workflow.actions.viewresult": [],
+    "is.workflow.actions.waittoreturn": [],
     "is.workflow.actions.wallpaper.set": [
         "WFWallpaperModificationAccessResource"
     ],
@@ -674,8 +524,7 @@
         "WFWordPressAccount"
     ],
     "is.workflow.actions.workout.start": [
-        "WFHealthKitAccessResource",
-        "WFHealthKitResource"
+        "WFHealthKitAccessResource"
     ],
     "is.workflow.actions.wunderlist.add": [
         "WFWunderlistAccount"

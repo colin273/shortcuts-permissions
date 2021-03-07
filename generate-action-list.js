@@ -10,9 +10,11 @@ This only works on macOS.
 */
 
 const bplist = require('bplist-parser');
-const { writeFileSync } = require('fs')
+const { writeFileSync } = require('fs');
 
-const actions = require('./actions.json');
+const actionsJSONPath = './actions.json';
+
+const actions = require(actionsJSONPath);
 const overrides = require('./overrides.json');
 const permissions = require('./permissions.json');
 
@@ -32,7 +34,7 @@ function pushOrNot(arr, item) {
             const resources  = obj[actionID].RequiredResources;
             if (resources) {
                 for (const resource of resources) {
-                    if (typeof resource == "string") {
+                    if (typeof resource === "string") {
                         pushOrNot(perms, resource)
                     } else {
                         if (resource.WFAccountClass) {
@@ -45,6 +47,7 @@ function pushOrNot(arr, item) {
             }
 
             if (obj[actionID].AppIdentifier == "com.apple.Preferences") pushOrNot(perms, "Settings");
+            if (obj[actionID].AppIdentifier == "com.apple.TVRemoteUIService") pushOrNot(perms, "Apple TV Remote");
         }
 
         perms.sort();
@@ -52,5 +55,5 @@ function pushOrNot(arr, item) {
         actions[actionID] = perms;
     }
 
-    writeFileSync('./actions.json', JSON.stringify(actions, null, 4))
+    writeFileSync(actionsJSONPath, JSON.stringify(actions, null, 4))
 })();

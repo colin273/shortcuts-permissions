@@ -8,7 +8,9 @@ This only works on macOS.
 */
 
 const bplist = require('bplist-parser');
-const { writeFileSync } = require('fs')
+const { writeFileSync } = require('fs');
+
+const permissionsJSONPath = './permissions.json'
 
 let perms = [];
 
@@ -38,16 +40,16 @@ function pushOrNot(perm) {
         }
     }
 
-    perms.push("Settings")
+    for (const perm of ["Apple TV Remote", "FaceTime", "Phone", "Run JavaScript", "Settings"]) {
+        perms.push(perm)
+    }
+
     perms.sort();
     
-    const permsJSON = {};
-    try {
-        permsJSON = require("./permissions.json");
-    } catch {}
+    const permsJSON = require(permissionsJSONPath);
 
     for (const p of perms) {
-        if (!permsJSON[p]) {
+        if (permsJSON[p] === undefined) {
             permsJSON[p] = {
                 icon: "",
                 description: ""
@@ -56,5 +58,5 @@ function pushOrNot(perm) {
         }
     }
 
-    writeFileSync('./permissions.json', JSON.stringify(permsJSON, null, 4))
+    writeFileSync(permissionsJSONPath, JSON.stringify(permsJSON, null, 4))
 })();
