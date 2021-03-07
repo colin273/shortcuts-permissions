@@ -1,19 +1,43 @@
 {
-    "com.apple.TVRemoteUIService.LaunchApplicationIntent": [],
-    "com.apple.TVRemoteUIService.LaunchRemoteIntent": [],
-    "com.apple.TVRemoteUIService.PauseContentIntent": [],
-    "com.apple.TVRemoteUIService.ReduceLoudSoundsIntent": [],
-    "com.apple.TVRemoteUIService.SkipContentIntent": [],
-    "com.apple.TVRemoteUIService.SleepAppleTVIntent": [],
-    "com.apple.TVRemoteUIService.SwitchUserAccountIntent": [],
-    "com.apple.TVRemoteUIService.ToggleCaptionsIntent": [],
-    "com.apple.TVRemoteUIService.ToggleSystemAppearanceIntent": [],
-    "com.apple.TVRemoteUIService.WakeAppleTVIntent": [],
-    "com.apple.facetime.facetime": [],
+    "com.apple.TVRemoteUIService.LaunchApplicationIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.LaunchRemoteIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.PauseContentIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.ReduceLoudSoundsIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.SkipContentIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.SleepAppleTVIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.SwitchUserAccountIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.ToggleCaptionsIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.ToggleSystemAppearanceIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.TVRemoteUIService.WakeAppleTVIntent": [
+        "Apple TV Remote"
+    ],
+    "com.apple.facetime.facetime": [
+        "FaceTime"
+    ],
     "com.apple.mobilenotes.SharingExtension": [
         "WFNotesAccessResource"
     ],
-    "com.apple.mobilephone.call": [],
+    "com.apple.mobilephone.call": [
+        "Phone"
+    ],
     "com.apple.mobileslideshow.StreamShareService": [],
     "com.apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent": [],
     "com.panic.iOS.Transmit.Share": [],
@@ -378,7 +402,9 @@
         "WFRemoteServerAccessResource"
     ],
     "is.workflow.actions.runextension": [],
-    "is.workflow.actions.runjavascriptonwebpage": [],
+    "is.workflow.actions.runjavascriptonwebpage": [
+        "Run JavaScript"
+    ],
     "is.workflow.actions.runsshscript": [],
     "is.workflow.actions.runworkflow": [
         "WFRunShortcutsAccessResource"
