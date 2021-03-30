@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/FifiTheBulldog/shortcuts-permissions#readme",
   "dependencies": {
-    "bplist-parser": "^0.2.0",
-    "shortcuts.js": "^3.0.1"
+    "bplist-parser": "^0.3.0"
   }
 }

@@ -10,7 +10,7 @@ This only works on macOS.
 const bplist = require('bplist-parser');
 const { writeFileSync } = require('fs');
 
-const permissionsJSONPath = './permissions.json'
+const permissionsJSONPath = './permissions.json';
 
 let perms = [];
 
@@ -21,7 +21,7 @@ function pushOrNot(perm) {
 }
 
 (async () => {
-    const obj = (await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist', () => {}))[0];
+    const obj = await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist')[0];
 
     for (const actionID in obj) {
         const resources  = obj[actionID].RequiredResources;
@@ -45,7 +45,7 @@ function pushOrNot(perm) {
     }
 
     perms.sort();
-    
+
     const permsJSON = require(permissionsJSONPath);
 
     for (const p of perms) {

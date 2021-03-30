@@ -23,7 +23,7 @@ function pushOrNot(arr, item) {
 }
 
 (async () => {
-    const obj = (await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist', () => {}))[0];
+    const obj = await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist')[0];
 
     for (const actionID in obj) {
         let perms = [];
@@ -39,7 +39,7 @@ function pushOrNot(arr, item) {
                     } else {
                         if (resource.WFAccountClass) {
                             pushOrNot(perms, resource.WFAccountClass);
-                          } else {
+                        } else {
                             pushOrNot(perms, resource.WFResourceClass);
                         }
                     }
@@ -55,5 +55,5 @@ function pushOrNot(arr, item) {
         actions[actionID] = perms;
     }
 
-    writeFileSync(actionsJSONPath, JSON.stringify(actions, null, 4))
+    writeFileSync(actionsJSONPath, JSON.stringify(actions, null, 4));
 })();
