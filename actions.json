@@ -555,5 +555,15 @@
     ],
     "is.workflow.actions.wunderlist.add": [
         "WFWunderlistAccount"
+    ],
+    "is.workflow.actions.cellular.rat.set": [
+        "Settings"
+    ],
+    "is.workflow.actions.converttimezone": [],
+    "is.workflow.actions.orientationlock.set": [
+        "Settings"
+    ],
+    "is.workflow.actions.takescreenshot": [
+        "WFScreenshotAccessResource"
     ]
 }

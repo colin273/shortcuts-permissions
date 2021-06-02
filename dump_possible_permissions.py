@@ -44,4 +44,4 @@ for perm in perms:
         print("Permission '" + perm + "' has no description")
     
 with open(PERMISSIONS_JSON_PATH, "w") as file:
-    json.dump(dict(perms_json), file, indent = 2)
+    json.dump(perms_json, file, indent = 4)
