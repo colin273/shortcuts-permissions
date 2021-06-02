@@ -1,7 +1,10 @@
 import json
 import plistlib
 
-action_list = json.loads(open("./actions.json").read())
+ACTIONS_PATH = "./actions.json"
+
+with open(ACTIONS_PATH) as file:
+    action_list = json.load(file)
 
 def scan_shortcut(plist):
     '''Accepts a bytes object containing a shortcut, and returns a list of the shortcut's required permissions.'''

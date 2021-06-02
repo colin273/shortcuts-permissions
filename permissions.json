@@ -1,174 +1,178 @@
 {
-    "FaceTime": {
-        "icon": "",
-        "description": "FaceTime"
-    },
-    "Phone": {
-        "icon": "",
-        "description": "Phone"
-    },
-    "Run JavaScript": {
-        "icon": "",
-        "description": "Run JavaScript"
-    },
-    "Settings": {
-        "icon": "",
-        "description": "Settings"
-    },
-    "WFAddToReadingListAccessResource": {
-        "icon": "",
-        "description": "Reading List"
-    },
-    "WFAppInstalledResource": null,
-    "WFAppleMusicAccessResource": {
-        "icon": "",
-        "description": "Music"
-    },
-    "WFCalendarAccessResource": {
-        "icon": "",
-        "description": "Calendar"
-    },
-    "WFCameraAccessResource": {
-        "icon": "",
-        "description": "Camera"
-    },
-    "WFCloudAppAccessResource": {
-        "icon": "",
-        "description": "CloudApp"
-    },
-    "WFContactAccessResource": {
-        "icon": "",
-        "description": "Contacts"
-    },
-    "WFDeviceAttributesResource": null,
-    "WFEvernoteAccessResource": {
-        "icon": "",
-        "description": "Evernote"
-    },
-    "WFHealthKitAccessResource": {
-        "icon": "",
-        "description": "Health"
-    },
-    "WFHealthKitResource": null,
-    "WFHomeKitAccessResource": {
-        "icon": "",
-        "description": "HomeKit"
-    },
-    "WFImgurAccessResource": {
-        "icon": "",
-        "description": "Imgur"
-    },
-    "WFInstapaperAccessResource": {
-        "icon": "",
-        "description": "Instapaper"
-    },
-    "WFLocalNotificationAccessResource": {
-        "icon": "",
-        "description": "Notifications"
-    },
-    "WFLocationAccessResource": {
-        "icon": "",
-        "description": "Location"
-    },
-    "WFMainThreadResource": null,
-    "WFMessagesAccessResource": {
-        "icon": "",
-        "description": "Messages"
-    },
-    "WFMicrophoneAccessResource": {
-        "icon": "",
-        "description": "Microphone"
-    },
-    "WFNotesAccessResource": {
-        "icon": "",
-        "description": "Notes"
-    },
-    "WFPhotoAccessResource": {
-        "icon": "",
-        "description": "Photos"
-    },
-    "WFPinboardAccessResource": {
-        "icon": "",
-        "description": "Pinboard"
-    },
-    "WFPocketAccessResource": {
-        "icon": "",
-        "description": "Pocket"
-    },
-    "WFPodcastsAccessResource": {
-        "icon": "",
-        "description": "Podcasts"
-    },
-    "WFReminderAccessResource": {
-        "icon": "",
-        "description": "Reminders"
-    },
-    "WFRemoteServerAccessResource": {
-        "icon": "",
-        "description": "Internet"
-    },
-    "WFRequestPaymentAccessResource": {
-        "icon": "",
-        "description": "Wallet"
-    },
-    "WFRunShortcutsAccessResource": {
-        "icon": "",
-        "description": "Run Shortcuts"
-    },
-    "WFSendEmailAccessResource": {
-        "icon": "",
-        "description": "Mail"
-    },
-    "WFShortcutsAccessResource": {
-        "icon": "",
-        "description": "Shortcuts"
-    },
-    "WFSiriAccessResource": {
-        "icon": "",
-        "description": "Siri"
-    },
-    "WFSlackAccount": {
-        "icon": "",
-        "description": "Slack"
-    },
-    "WFSpeechRecognitionAccessResource": {
-        "icon": "",
-        "description": "Speech Recognition"
-    },
-    "WFStartCallAccessResource": null,
-    "WFTodoistAccount": {
-        "icon": "",
-        "description": "Todoist"
-    },
-    "WFTrelloAccessResource": {
-        "icon": "",
-        "description": "Trello"
-    },
-    "WFTumblrAccessResource": {
-        "icon": "",
-        "description": "Tumblr"
-    },
-    "WFURLOpenResource": null,
-    "WFUnavailableResource": null,
-    "WFUserInteractionResource": null,
-    "WFWallpaperModificationAccessResource": {
-        "icon": "",
-        "description": "Set Wallpaper"
-    },
-    "WFWeatherAttributionAccessResource": {
-        "icon": "",
-        "description": "Weather"
-    },
-    "WFWordPressAccount": {
-        "icon": "",
-        "description": "WordPress"
-    },
-    "WFWunderlistAccount": {
-        "icon": "",
-        "description": "Wunderlist"
-    },
-    "Apple TV Remote": {
-        "icon": "",
-        "description": "Apple TV Remote"
-    }
+  "FaceTime": {
+    "icon": "",
+    "description": "FaceTime"
+  },
+  "Phone": {
+    "icon": "",
+    "description": "Phone"
+  },
+  "Run JavaScript": {
+    "icon": "",
+    "description": "Run JavaScript"
+  },
+  "Settings": {
+    "icon": "",
+    "description": "Settings"
+  },
+  "WFAddToReadingListAccessResource": {
+    "icon": "",
+    "description": "Reading List"
+  },
+  "WFAppInstalledResource": null,
+  "WFAppleMusicAccessResource": {
+    "icon": "",
+    "description": "Music"
+  },
+  "WFCalendarAccessResource": {
+    "icon": "",
+    "description": "Calendar"
+  },
+  "WFCameraAccessResource": {
+    "icon": "",
+    "description": "Camera"
+  },
+  "WFCloudAppAccessResource": {
+    "icon": "",
+    "description": "CloudApp"
+  },
+  "WFContactAccessResource": {
+    "icon": "",
+    "description": "Contacts"
+  },
+  "WFDeviceAttributesResource": null,
+  "WFEvernoteAccessResource": {
+    "icon": "",
+    "description": "Evernote"
+  },
+  "WFHealthKitAccessResource": {
+    "icon": "",
+    "description": "Health"
+  },
+  "WFHealthKitResource": null,
+  "WFHomeKitAccessResource": {
+    "icon": "",
+    "description": "HomeKit"
+  },
+  "WFImgurAccessResource": {
+    "icon": "",
+    "description": "Imgur"
+  },
+  "WFInstapaperAccessResource": {
+    "icon": "",
+    "description": "Instapaper"
+  },
+  "WFLocalNotificationAccessResource": {
+    "icon": "",
+    "description": "Notifications"
+  },
+  "WFLocationAccessResource": {
+    "icon": "",
+    "description": "Location"
+  },
+  "WFMainThreadResource": null,
+  "WFMessagesAccessResource": {
+    "icon": "",
+    "description": "Messages"
+  },
+  "WFMicrophoneAccessResource": {
+    "icon": "",
+    "description": "Microphone"
+  },
+  "WFNotesAccessResource": {
+    "icon": "",
+    "description": "Notes"
+  },
+  "WFPhotoAccessResource": {
+    "icon": "",
+    "description": "Photos"
+  },
+  "WFPinboardAccessResource": {
+    "icon": "",
+    "description": "Pinboard"
+  },
+  "WFPocketAccessResource": {
+    "icon": "",
+    "description": "Pocket"
+  },
+  "WFPodcastsAccessResource": {
+    "icon": "",
+    "description": "Podcasts"
+  },
+  "WFReminderAccessResource": {
+    "icon": "",
+    "description": "Reminders"
+  },
+  "WFRemoteServerAccessResource": {
+    "icon": "",
+    "description": "Internet"
+  },
+  "WFRequestPaymentAccessResource": {
+    "icon": "",
+    "description": "Wallet"
+  },
+  "WFRunShortcutsAccessResource": {
+    "icon": "",
+    "description": "Run Shortcuts"
+  },
+  "WFSendEmailAccessResource": {
+    "icon": "",
+    "description": "Mail"
+  },
+  "WFShortcutsAccessResource": {
+    "icon": "",
+    "description": "Shortcuts"
+  },
+  "WFSiriAccessResource": {
+    "icon": "",
+    "description": "Siri"
+  },
+  "WFSlackAccount": {
+    "icon": "",
+    "description": "Slack"
+  },
+  "WFSpeechRecognitionAccessResource": {
+    "icon": "",
+    "description": "Speech Recognition"
+  },
+  "WFStartCallAccessResource": null,
+  "WFTodoistAccount": {
+    "icon": "",
+    "description": "Todoist"
+  },
+  "WFTrelloAccessResource": {
+    "icon": "",
+    "description": "Trello"
+  },
+  "WFTumblrAccessResource": {
+    "icon": "",
+    "description": "Tumblr"
+  },
+  "WFURLOpenResource": null,
+  "WFUnavailableResource": null,
+  "WFUserInteractionResource": null,
+  "WFWallpaperModificationAccessResource": {
+    "icon": "",
+    "description": "Set Wallpaper"
+  },
+  "WFWeatherAttributionAccessResource": {
+    "icon": "",
+    "description": "Weather"
+  },
+  "WFWordPressAccount": {
+    "icon": "",
+    "description": "WordPress"
+  },
+  "WFWunderlistAccount": {
+    "icon": "",
+    "description": "Wunderlist"
+  },
+  "Apple TV Remote": {
+    "icon": "",
+    "description": "Apple TV Remote"
+  },
+  "WFScreenshotAccessResource": {
+    "icon": "",
+    "description": "Take a Screenshot"
+  }
 }
