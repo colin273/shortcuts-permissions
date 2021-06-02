@@ -1,10 +1,12 @@
 import json
 import plistlib
 
+from get_wfactions_path import get_path
+
 ACTIONS_JSON_PATH = "./actions.json"
 OVERRIDES_PATH = "./overrides.json"
 PERMISSIONS_JSON_PATH = "./permissions.json"
-WFACTIONS_PLIST_PATH = '/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist'
+WFACTIONS_PLIST_PATH = get_path()
 
 def push_or_not(arr, item):
     """Accepts a list and a string.

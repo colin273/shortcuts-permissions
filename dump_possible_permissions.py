@@ -1,10 +1,11 @@
 import json
 import plistlib
 
-PERMISSIONS_JSON_PATH = "./permissions.json"
-WFACTIONS_PLIST_PATH = '/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist'
+from get_wfactions_path import get_path
 
+PERMISSIONS_JSON_PATH = "./permissions.json"
 EXTRA_PERMS = ["Apple TV Remote", "FaceTime", "Phone", "Run JavaScript", "Settings"]
+WFACTIONS_PLIST_PATH = get_path()
 
 perms = []
 
