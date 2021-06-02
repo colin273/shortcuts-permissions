@@ -9,6 +9,8 @@ WFKIT_PATH = "/System/Library/PrivateFrameworks/WorkflowKit.framework"
 OS_NAME = platform.system()
 
 def get_path():
+    '''Return the path to WFActions.plist or exit the program depending on the platform.'''
+    
     if OS_NAME == "Darwin":
         ios_wfactions_path = os.path.join(WFKIT_PATH, WFACTIONS)
         if os.path.exists(ios_wfactions_path):
