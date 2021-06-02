@@ -1,3 +1,8 @@
+# scan_shortcut.py
+#
+# Exports scan_shortcut, a function that returns an array of permissions
+# for a shortcut. The function accepts a .shortcut file as a bytes object.
+
 import json
 import plistlib
 

@@ -1,3 +1,11 @@
+# generate_action_list.py
+# 
+# Generates actions.json, containing all the actions and permissions in WFActions.plist.
+# Supports macOS, iOS (direct filesystem access), and iSH on iOS.
+# 
+# Permissions with a value of `null` in permissions.json are ignored.
+# Action listings in overrides.json take precedence over WFActions.plist.
+
 import json
 import plistlib
 
