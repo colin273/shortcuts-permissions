@@ -6,7 +6,7 @@
 import json
 import plistlib
 
-ACTIONS_PATH = "./actions.json"
+ACTIONS_PATH = "../actions.json"
 
 with open(ACTIONS_PATH) as file:
     action_list = json.load(file)

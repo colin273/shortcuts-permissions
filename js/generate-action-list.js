@@ -12,11 +12,11 @@ This only works on macOS.
 const bplist = require('bplist-parser');
 const { writeFileSync } = require('fs');
 
-const actionsJSONPath = './actions.json';
+const actionsJSONPath = '../actions.json';
 
 const actions = require(actionsJSONPath);
-const overrides = require('./overrides.json');
-const permissions = require('./permissions.json');
+const overrides = require('../overrides.json');
+const permissions = require('../permissions.json');
 
 function pushOrNot(arr, item) {
     if ((permissions[item] != null) && (!arr.includes(item))) arr.push(item);

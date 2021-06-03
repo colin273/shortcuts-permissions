@@ -9,7 +9,7 @@ Currently it ignores third-party apps' actions, though that may change in the fu
 const axios = require('axios').default;
 const bplist = require('./node_modules/bplist-parser/');
 
-const actionList = require('./actions.json');
+const actionList = require('../actions.json');
 
 module.exports = async (shortcut) => {
     if (typeof shortcut == "string") {

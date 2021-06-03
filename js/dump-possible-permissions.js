@@ -10,7 +10,7 @@ This only works on macOS.
 const bplist = require('bplist-parser');
 const { writeFileSync } = require('fs');
 
-const permissionsJSONPath = './permissions.json';
+const permissionsJSONPath = '../permissions.json';
 
 let perms = [];
 
