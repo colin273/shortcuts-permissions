@@ -24,7 +24,7 @@ def get_path():
         mount_directory = "/mnt"
         subprocess.run(["mount", "-t", "real", "/", mount_directory])
         wfactions_path = os.path.join(mount_directory, WFKIT_PATH, WFACTIONS)
-        if not os.path.exists(WFACTIONS_PLIST_PATH):
+        if os.path.exists(wfactions_path):
             return wfactions_path
         else:
             # Linux but not iSH, so do not proceed

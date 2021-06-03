@@ -23,7 +23,7 @@ function pushOrNot(arr, item) {
 }
 
 (async () => {
-    const obj = await bplist.parseFile('/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist')[0];
+    const obj = await bplist.parseFile(require('./get-wfactions-path.js'))[0];
 
     for (const actionID in obj) {
         let perms = [];
