@@ -11,6 +11,7 @@ switch (process.platform) {
     case "darwin":
         // Apple platform
         const iosWFActionsPath = join(wfKitPath, wfActions)
+        
         // If WFActions.plist exists at iOS path, then environment is iOS
         // Otherwise, environment is macOS
         module.exports = existsSync(iosWFActionsPath) ? iosWFActionsPath : join(wfKitPath, "Resources", wfActions)

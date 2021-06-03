@@ -6,7 +6,7 @@ Generates an object containing all the actions and permissions in WFActions.plis
 Permissions with a value of `null` in permissions.json are ignored.
 Action listings in overrides.json take precedence over WFActions.plist.
 
-This only works on macOS.
+Supports macOS, iOS (direct filesystem access), and iSH on iOS.
 */
 
 const bplist = require('bplist-parser');
