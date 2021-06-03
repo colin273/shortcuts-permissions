@@ -7,12 +7,12 @@ All preexisting values in permissions.json are preserved, so permissions.json ca
 Supports macOS, iOS (direct filesystem access), and iSH on iOS.
 */
 
-const bplist = require('bplist-parser');
-const { writeFileSync } = require('fs');
+const bplist = require('bplist-parser')
+const { writeFileSync } = require('fs')
 
-const permissionsJSONPath = './permissions.json';
+const permissionsJSONPath = './permissions.json'
 
-let perms = [];
+let perms = []
 
 function pushOrNot(perm) {
     if (!perms.includes(perm)) {
@@ -21,10 +21,10 @@ function pushOrNot(perm) {
 }
 
 (async () => {
-    const obj = await bplist.parseFile(require('./get-wfactions-path.js'))[0];
+    const actionsDict = await bplist.parseFile(require('./get-wfactions-path.js'))[0]
 
-    for (const actionID in obj) {
-        const resources  = obj[actionID].RequiredResources;
+    for (const actionID in actionsDict) {
+        const resources  = actionDict[actionID].RequiredResources;
         if (resources) {
             for (const resource of resources) {
                 if (typeof resource == "string") {
@@ -33,7 +33,7 @@ function pushOrNot(perm) {
                     if (resource.WFAccountClass) {
                         pushOrNot(resource.WFAccountClass)
                     } else {
-                        pushOrNot(resource.WFResourceClass);
+                        pushOrNot(resource.WFResourceClass)
                     }
                 }
             }
@@ -46,17 +46,17 @@ function pushOrNot(perm) {
 
     perms.sort();
 
-    const permsJSON = require(permissionsJSONPath);
+    const permsJSON = require(permissionsJSONPath)
 
     for (const p of perms) {
         if (permsJSON[p] === undefined) {
             permsJSON[p] = {
                 icon: "",
                 description: ""
-            };
+            }
             console.log(`Permission '${p}' has no description`)
         }
     }
 
     writeFileSync(permissionsJSONPath, JSON.stringify(permsJSON, null, 4))
-})();
+})()

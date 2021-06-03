@@ -23,15 +23,15 @@ function pushOrNot(arr, item) {
 }
 
 (async () => {
-    const obj = await bplist.parseFile(require('./get-wfactions-path.js'))[0];
+    const actionsDict = await bplist.parseFile(require('./get-wfactions-path.js'))[0];
 
-    for (const actionID in obj) {
+    for (const actionID in actionsDict) {
         let perms = [];
 
         if (overrides[actionID]) {
             perms = overrides[actionID];
         } else {
-            const resources  = obj[actionID].RequiredResources;
+            const resources  = actionsDict[actionID].RequiredResources;
             if (resources) {
                 for (const resource of resources) {
                     if (typeof resource === "string") {
@@ -46,8 +46,8 @@ function pushOrNot(arr, item) {
                 }
             }
 
-            if (obj[actionID].AppIdentifier == "com.apple.Preferences") pushOrNot(perms, "Settings");
-            if (obj[actionID].AppIdentifier == "com.apple.TVRemoteUIService") pushOrNot(perms, "Apple TV Remote");
+            if (actionsDict[actionID].AppIdentifier == "com.apple.Preferences") pushOrNot(perms, "Settings");
+            if (actionsDict[actionID].AppIdentifier == "com.apple.TVRemoteUIService") pushOrNot(perms, "Apple TV Remote");
         }
 
         perms.sort();
